@@ -1,0 +1,18 @@
+[tool.poetry] # setup.py
+name = "projeto-3-churn"
+version = "0.1.0"
+description = ""
+authors = ["Espedito Ferreira Alves <espeditoalves123@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies] # requirements.txt
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies] # requirement--dev.txt
+mkdocs = "^1.5.3"
+blue = "^0.9.1"
+
+[build-system] # setuptools
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
